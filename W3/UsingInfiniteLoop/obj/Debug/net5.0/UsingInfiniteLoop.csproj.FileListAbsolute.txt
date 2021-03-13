@@ -1,0 +1,16 @@
+D:\C#\W3\UsingInfiniteLoop\bin\Debug\net5.0\UsingInfiniteLoop.exe
+D:\C#\W3\UsingInfiniteLoop\bin\Debug\net5.0\UsingInfiniteLoop.deps.json
+D:\C#\W3\UsingInfiniteLoop\bin\Debug\net5.0\UsingInfiniteLoop.runtimeconfig.json
+D:\C#\W3\UsingInfiniteLoop\bin\Debug\net5.0\UsingInfiniteLoop.runtimeconfig.dev.json
+D:\C#\W3\UsingInfiniteLoop\bin\Debug\net5.0\UsingInfiniteLoop.dll
+D:\C#\W3\UsingInfiniteLoop\bin\Debug\net5.0\ref\UsingInfiniteLoop.dll
+D:\C#\W3\UsingInfiniteLoop\bin\Debug\net5.0\UsingInfiniteLoop.pdb
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.csprojAssemblyReference.cache
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.AssemblyInfoInputs.cache
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.AssemblyInfo.cs
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.dll
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\ref\UsingInfiniteLoop.dll
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.pdb
+D:\C#\W3\UsingInfiniteLoop\obj\Debug\net5.0\UsingInfiniteLoop.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\C#\W3\VarScope\bin\Debug\net5.0\VarScope.exe
+D:\C#\W3\VarScope\bin\Debug\net5.0\VarScope.deps.json
+D:\C#\W3\VarScope\bin\Debug\net5.0\VarScope.runtimeconfig.json
+D:\C#\W3\VarScope\bin\Debug\net5.0\VarScope.runtimeconfig.dev.json
+D:\C#\W3\VarScope\bin\Debug\net5.0\VarScope.dll
+D:\C#\W3\VarScope\bin\Debug\net5.0\ref\VarScope.dll
+D:\C#\W3\VarScope\bin\Debug\net5.0\VarScope.pdb
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.csprojAssemblyReference.cache
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.AssemblyInfoInputs.cache
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.AssemblyInfo.cs
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.csproj.CoreCompileInputs.cache
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.dll
+D:\C#\W3\VarScope\obj\Debug\net5.0\ref\VarScope.dll
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.pdb
+D:\C#\W3\VarScope\obj\Debug\net5.0\VarScope.genruntimeconfig.cache

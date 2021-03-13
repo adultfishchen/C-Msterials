@@ -1,0 +1,16 @@
+D:\C#\W2\UsingNumeric\bin\Debug\net5.0\UsingNumeric.exe
+D:\C#\W2\UsingNumeric\bin\Debug\net5.0\UsingNumeric.deps.json
+D:\C#\W2\UsingNumeric\bin\Debug\net5.0\UsingNumeric.runtimeconfig.json
+D:\C#\W2\UsingNumeric\bin\Debug\net5.0\UsingNumeric.runtimeconfig.dev.json
+D:\C#\W2\UsingNumeric\bin\Debug\net5.0\UsingNumeric.dll
+D:\C#\W2\UsingNumeric\bin\Debug\net5.0\ref\UsingNumeric.dll
+D:\C#\W2\UsingNumeric\bin\Debug\net5.0\UsingNumeric.pdb
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.csprojAssemblyReference.cache
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.AssemblyInfoInputs.cache
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.AssemblyInfo.cs
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.dll
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\ref\UsingNumeric.dll
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.pdb
+D:\C#\W2\UsingNumeric\obj\Debug\net5.0\UsingNumeric.genruntimeconfig.cache

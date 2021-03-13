@@ -1,0 +1,16 @@
+D:\C#\W3\Pythagoras\bin\Debug\net5.0\Pythagoras.exe
+D:\C#\W3\Pythagoras\bin\Debug\net5.0\Pythagoras.deps.json
+D:\C#\W3\Pythagoras\bin\Debug\net5.0\Pythagoras.runtimeconfig.json
+D:\C#\W3\Pythagoras\bin\Debug\net5.0\Pythagoras.runtimeconfig.dev.json
+D:\C#\W3\Pythagoras\bin\Debug\net5.0\Pythagoras.dll
+D:\C#\W3\Pythagoras\bin\Debug\net5.0\ref\Pythagoras.dll
+D:\C#\W3\Pythagoras\bin\Debug\net5.0\Pythagoras.pdb
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.csprojAssemblyReference.cache
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.AssemblyInfoInputs.cache
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.AssemblyInfo.cs
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.csproj.CoreCompileInputs.cache
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.dll
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\ref\Pythagoras.dll
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.pdb
+D:\C#\W3\Pythagoras\obj\Debug\net5.0\Pythagoras.genruntimeconfig.cache

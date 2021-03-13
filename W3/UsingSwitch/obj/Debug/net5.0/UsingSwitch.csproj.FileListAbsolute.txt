@@ -1,0 +1,16 @@
+D:\C#\W3\UsingSwitch\bin\Debug\net5.0\UsingSwitch.exe
+D:\C#\W3\UsingSwitch\bin\Debug\net5.0\UsingSwitch.deps.json
+D:\C#\W3\UsingSwitch\bin\Debug\net5.0\UsingSwitch.runtimeconfig.json
+D:\C#\W3\UsingSwitch\bin\Debug\net5.0\UsingSwitch.runtimeconfig.dev.json
+D:\C#\W3\UsingSwitch\bin\Debug\net5.0\UsingSwitch.dll
+D:\C#\W3\UsingSwitch\bin\Debug\net5.0\ref\UsingSwitch.dll
+D:\C#\W3\UsingSwitch\bin\Debug\net5.0\UsingSwitch.pdb
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.csprojAssemblyReference.cache
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.AssemblyInfoInputs.cache
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.AssemblyInfo.cs
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.dll
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\ref\UsingSwitch.dll
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.pdb
+D:\C#\W3\UsingSwitch\obj\Debug\net5.0\UsingSwitch.genruntimeconfig.cache

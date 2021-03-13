@@ -1,0 +1,16 @@
+D:\C#\W2\UsingVariable\bin\Debug\net5.0\UsingVariable.exe
+D:\C#\W2\UsingVariable\bin\Debug\net5.0\UsingVariable.deps.json
+D:\C#\W2\UsingVariable\bin\Debug\net5.0\UsingVariable.runtimeconfig.json
+D:\C#\W2\UsingVariable\bin\Debug\net5.0\UsingVariable.runtimeconfig.dev.json
+D:\C#\W2\UsingVariable\bin\Debug\net5.0\UsingVariable.dll
+D:\C#\W2\UsingVariable\bin\Debug\net5.0\ref\UsingVariable.dll
+D:\C#\W2\UsingVariable\bin\Debug\net5.0\UsingVariable.pdb
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.csprojAssemblyReference.cache
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.AssemblyInfoInputs.cache
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.AssemblyInfo.cs
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.dll
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\ref\UsingVariable.dll
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.pdb
+D:\C#\W2\UsingVariable\obj\Debug\net5.0\UsingVariable.genruntimeconfig.cache

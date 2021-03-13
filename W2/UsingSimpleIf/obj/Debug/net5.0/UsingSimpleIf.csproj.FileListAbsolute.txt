@@ -1,0 +1,16 @@
+D:\C#\W2\UsingSimpleIf\bin\Debug\net5.0\UsingSimpleIf.exe
+D:\C#\W2\UsingSimpleIf\bin\Debug\net5.0\UsingSimpleIf.deps.json
+D:\C#\W2\UsingSimpleIf\bin\Debug\net5.0\UsingSimpleIf.runtimeconfig.json
+D:\C#\W2\UsingSimpleIf\bin\Debug\net5.0\UsingSimpleIf.runtimeconfig.dev.json
+D:\C#\W2\UsingSimpleIf\bin\Debug\net5.0\UsingSimpleIf.dll
+D:\C#\W2\UsingSimpleIf\bin\Debug\net5.0\ref\UsingSimpleIf.dll
+D:\C#\W2\UsingSimpleIf\bin\Debug\net5.0\UsingSimpleIf.pdb
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.csprojAssemblyReference.cache
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.AssemblyInfoInputs.cache
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.AssemblyInfo.cs
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.dll
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\ref\UsingSimpleIf.dll
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.pdb
+D:\C#\W2\UsingSimpleIf\obj\Debug\net5.0\UsingSimpleIf.genruntimeconfig.cache

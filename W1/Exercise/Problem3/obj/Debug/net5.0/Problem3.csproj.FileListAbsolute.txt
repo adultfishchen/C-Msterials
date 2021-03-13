@@ -1,0 +1,16 @@
+D:\C#\W1\Exercise\Problem3\bin\Debug\net5.0\Problem3.exe
+D:\C#\W1\Exercise\Problem3\bin\Debug\net5.0\Problem3.deps.json
+D:\C#\W1\Exercise\Problem3\bin\Debug\net5.0\Problem3.runtimeconfig.json
+D:\C#\W1\Exercise\Problem3\bin\Debug\net5.0\Problem3.runtimeconfig.dev.json
+D:\C#\W1\Exercise\Problem3\bin\Debug\net5.0\Problem3.dll
+D:\C#\W1\Exercise\Problem3\bin\Debug\net5.0\ref\Problem3.dll
+D:\C#\W1\Exercise\Problem3\bin\Debug\net5.0\Problem3.pdb
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.csprojAssemblyReference.cache
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.AssemblyInfoInputs.cache
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.AssemblyInfo.cs
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.csproj.CoreCompileInputs.cache
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.dll
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\ref\Problem3.dll
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.pdb
+D:\C#\W1\Exercise\Problem3\obj\Debug\net5.0\Problem3.genruntimeconfig.cache

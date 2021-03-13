@@ -1,0 +1,16 @@
+D:\C#\W3\CheckingInput\bin\Debug\net5.0\CheckingInput.exe
+D:\C#\W3\CheckingInput\bin\Debug\net5.0\CheckingInput.deps.json
+D:\C#\W3\CheckingInput\bin\Debug\net5.0\CheckingInput.runtimeconfig.json
+D:\C#\W3\CheckingInput\bin\Debug\net5.0\CheckingInput.runtimeconfig.dev.json
+D:\C#\W3\CheckingInput\bin\Debug\net5.0\CheckingInput.dll
+D:\C#\W3\CheckingInput\bin\Debug\net5.0\ref\CheckingInput.dll
+D:\C#\W3\CheckingInput\bin\Debug\net5.0\CheckingInput.pdb
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.csprojAssemblyReference.cache
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.AssemblyInfoInputs.cache
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.AssemblyInfo.cs
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.csproj.CoreCompileInputs.cache
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.dll
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\ref\CheckingInput.dll
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.pdb
+D:\C#\W3\CheckingInput\obj\Debug\net5.0\CheckingInput.genruntimeconfig.cache

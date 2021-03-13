@@ -1,0 +1,16 @@
+D:\C#\W3\UsingNestedIf\bin\Debug\net5.0\UsingNestedIf.exe
+D:\C#\W3\UsingNestedIf\bin\Debug\net5.0\UsingNestedIf.deps.json
+D:\C#\W3\UsingNestedIf\bin\Debug\net5.0\UsingNestedIf.runtimeconfig.json
+D:\C#\W3\UsingNestedIf\bin\Debug\net5.0\UsingNestedIf.runtimeconfig.dev.json
+D:\C#\W3\UsingNestedIf\bin\Debug\net5.0\UsingNestedIf.dll
+D:\C#\W3\UsingNestedIf\bin\Debug\net5.0\ref\UsingNestedIf.dll
+D:\C#\W3\UsingNestedIf\bin\Debug\net5.0\UsingNestedIf.pdb
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.csprojAssemblyReference.cache
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.AssemblyInfoInputs.cache
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.AssemblyInfo.cs
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.dll
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\ref\UsingNestedIf.dll
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.pdb
+D:\C#\W3\UsingNestedIf\obj\Debug\net5.0\UsingNestedIf.genruntimeconfig.cache

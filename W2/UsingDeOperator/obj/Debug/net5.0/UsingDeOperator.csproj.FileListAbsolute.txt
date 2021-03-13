@@ -1,0 +1,16 @@
+D:\C#\W2\UsingDeOperator\bin\Debug\net5.0\UsingDeOperator.exe
+D:\C#\W2\UsingDeOperator\bin\Debug\net5.0\UsingDeOperator.deps.json
+D:\C#\W2\UsingDeOperator\bin\Debug\net5.0\UsingDeOperator.runtimeconfig.json
+D:\C#\W2\UsingDeOperator\bin\Debug\net5.0\UsingDeOperator.runtimeconfig.dev.json
+D:\C#\W2\UsingDeOperator\bin\Debug\net5.0\UsingDeOperator.dll
+D:\C#\W2\UsingDeOperator\bin\Debug\net5.0\ref\UsingDeOperator.dll
+D:\C#\W2\UsingDeOperator\bin\Debug\net5.0\UsingDeOperator.pdb
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.csprojAssemblyReference.cache
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.AssemblyInfoInputs.cache
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.AssemblyInfo.cs
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.dll
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\ref\UsingDeOperator.dll
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.pdb
+D:\C#\W2\UsingDeOperator\obj\Debug\net5.0\UsingDeOperator.genruntimeconfig.cache

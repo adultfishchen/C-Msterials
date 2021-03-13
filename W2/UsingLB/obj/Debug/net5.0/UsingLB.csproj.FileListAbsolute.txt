@@ -1,0 +1,16 @@
+D:\C#\W2\UsingLB\bin\Debug\net5.0\UsingLB.exe
+D:\C#\W2\UsingLB\bin\Debug\net5.0\UsingLB.deps.json
+D:\C#\W2\UsingLB\bin\Debug\net5.0\UsingLB.runtimeconfig.json
+D:\C#\W2\UsingLB\bin\Debug\net5.0\UsingLB.runtimeconfig.dev.json
+D:\C#\W2\UsingLB\bin\Debug\net5.0\UsingLB.dll
+D:\C#\W2\UsingLB\bin\Debug\net5.0\ref\UsingLB.dll
+D:\C#\W2\UsingLB\bin\Debug\net5.0\UsingLB.pdb
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.csprojAssemblyReference.cache
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.AssemblyInfoInputs.cache
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.AssemblyInfo.cs
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.dll
+D:\C#\W2\UsingLB\obj\Debug\net5.0\ref\UsingLB.dll
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.pdb
+D:\C#\W2\UsingLB\obj\Debug\net5.0\UsingLB.genruntimeconfig.cache

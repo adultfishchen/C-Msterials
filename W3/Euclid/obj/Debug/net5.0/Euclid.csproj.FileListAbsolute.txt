@@ -1,0 +1,16 @@
+D:\C#\W3\Euclid\bin\Debug\net5.0\Euclid.exe
+D:\C#\W3\Euclid\bin\Debug\net5.0\Euclid.deps.json
+D:\C#\W3\Euclid\bin\Debug\net5.0\Euclid.runtimeconfig.json
+D:\C#\W3\Euclid\bin\Debug\net5.0\Euclid.runtimeconfig.dev.json
+D:\C#\W3\Euclid\bin\Debug\net5.0\Euclid.dll
+D:\C#\W3\Euclid\bin\Debug\net5.0\ref\Euclid.dll
+D:\C#\W3\Euclid\bin\Debug\net5.0\Euclid.pdb
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.csprojAssemblyReference.cache
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.AssemblyInfoInputs.cache
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.AssemblyInfo.cs
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.csproj.CoreCompileInputs.cache
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.dll
+D:\C#\W3\Euclid\obj\Debug\net5.0\ref\Euclid.dll
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.pdb
+D:\C#\W3\Euclid\obj\Debug\net5.0\Euclid.genruntimeconfig.cache

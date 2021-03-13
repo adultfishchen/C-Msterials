@@ -1,0 +1,16 @@
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.csprojAssemblyReference.cache
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.AssemblyInfoInputs.cache
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.AssemblyInfo.cs
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingConstant\bin\Debug\net5.0\UsingConstant.exe
+D:\C#\W2\UsingConstant\bin\Debug\net5.0\UsingConstant.deps.json
+D:\C#\W2\UsingConstant\bin\Debug\net5.0\UsingConstant.runtimeconfig.json
+D:\C#\W2\UsingConstant\bin\Debug\net5.0\UsingConstant.runtimeconfig.dev.json
+D:\C#\W2\UsingConstant\bin\Debug\net5.0\UsingConstant.dll
+D:\C#\W2\UsingConstant\bin\Debug\net5.0\ref\UsingConstant.dll
+D:\C#\W2\UsingConstant\bin\Debug\net5.0\UsingConstant.pdb
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.dll
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\ref\UsingConstant.dll
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.pdb
+D:\C#\W2\UsingConstant\obj\Debug\net5.0\UsingConstant.genruntimeconfig.cache

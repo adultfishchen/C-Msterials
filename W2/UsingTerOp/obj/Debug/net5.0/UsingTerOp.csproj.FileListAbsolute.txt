@@ -1,0 +1,16 @@
+D:\C#\W2\UsingTerOp\bin\Debug\net5.0\UsingTerOp.exe
+D:\C#\W2\UsingTerOp\bin\Debug\net5.0\UsingTerOp.deps.json
+D:\C#\W2\UsingTerOp\bin\Debug\net5.0\UsingTerOp.runtimeconfig.json
+D:\C#\W2\UsingTerOp\bin\Debug\net5.0\UsingTerOp.runtimeconfig.dev.json
+D:\C#\W2\UsingTerOp\bin\Debug\net5.0\UsingTerOp.dll
+D:\C#\W2\UsingTerOp\bin\Debug\net5.0\ref\UsingTerOp.dll
+D:\C#\W2\UsingTerOp\bin\Debug\net5.0\UsingTerOp.pdb
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.csprojAssemblyReference.cache
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.AssemblyInfoInputs.cache
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.AssemblyInfo.cs
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.dll
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\ref\UsingTerOp.dll
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.pdb
+D:\C#\W2\UsingTerOp\obj\Debug\net5.0\UsingTerOp.genruntimeconfig.cache

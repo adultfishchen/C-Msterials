@@ -1,0 +1,16 @@
+D:\C#\W3\UsingBreak\bin\Debug\net5.0\UsingBreak.exe
+D:\C#\W3\UsingBreak\bin\Debug\net5.0\UsingBreak.deps.json
+D:\C#\W3\UsingBreak\bin\Debug\net5.0\UsingBreak.runtimeconfig.json
+D:\C#\W3\UsingBreak\bin\Debug\net5.0\UsingBreak.runtimeconfig.dev.json
+D:\C#\W3\UsingBreak\bin\Debug\net5.0\UsingBreak.dll
+D:\C#\W3\UsingBreak\bin\Debug\net5.0\ref\UsingBreak.dll
+D:\C#\W3\UsingBreak\bin\Debug\net5.0\UsingBreak.pdb
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.csprojAssemblyReference.cache
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.AssemblyInfoInputs.cache
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.AssemblyInfo.cs
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.dll
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\ref\UsingBreak.dll
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.pdb
+D:\C#\W3\UsingBreak\obj\Debug\net5.0\UsingBreak.genruntimeconfig.cache

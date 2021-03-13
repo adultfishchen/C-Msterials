@@ -1,0 +1,16 @@
+D:\C#\W3\UsingWhile\bin\Debug\net5.0\UsingWhile.exe
+D:\C#\W3\UsingWhile\bin\Debug\net5.0\UsingWhile.deps.json
+D:\C#\W3\UsingWhile\bin\Debug\net5.0\UsingWhile.runtimeconfig.json
+D:\C#\W3\UsingWhile\bin\Debug\net5.0\UsingWhile.runtimeconfig.dev.json
+D:\C#\W3\UsingWhile\bin\Debug\net5.0\UsingWhile.dll
+D:\C#\W3\UsingWhile\bin\Debug\net5.0\ref\UsingWhile.dll
+D:\C#\W3\UsingWhile\bin\Debug\net5.0\UsingWhile.pdb
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.csprojAssemblyReference.cache
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.AssemblyInfoInputs.cache
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.AssemblyInfo.cs
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.dll
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\ref\UsingWhile.dll
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.pdb
+D:\C#\W3\UsingWhile\obj\Debug\net5.0\UsingWhile.genruntimeconfig.cache

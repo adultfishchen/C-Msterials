@@ -1,0 +1,16 @@
+D:\C#\W3\UsingEnum\bin\Debug\net5.0\UsingEnum.exe
+D:\C#\W3\UsingEnum\bin\Debug\net5.0\UsingEnum.deps.json
+D:\C#\W3\UsingEnum\bin\Debug\net5.0\UsingEnum.runtimeconfig.json
+D:\C#\W3\UsingEnum\bin\Debug\net5.0\UsingEnum.runtimeconfig.dev.json
+D:\C#\W3\UsingEnum\bin\Debug\net5.0\UsingEnum.dll
+D:\C#\W3\UsingEnum\bin\Debug\net5.0\ref\UsingEnum.dll
+D:\C#\W3\UsingEnum\bin\Debug\net5.0\UsingEnum.pdb
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.csprojAssemblyReference.cache
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.AssemblyInfoInputs.cache
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.AssemblyInfo.cs
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.dll
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\ref\UsingEnum.dll
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.pdb
+D:\C#\W3\UsingEnum\obj\Debug\net5.0\UsingEnum.genruntimeconfig.cache

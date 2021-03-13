@@ -1,0 +1,16 @@
+D:\C#\W2\UsingChar\bin\Debug\net5.0\UsingChar.exe
+D:\C#\W2\UsingChar\bin\Debug\net5.0\UsingChar.deps.json
+D:\C#\W2\UsingChar\bin\Debug\net5.0\UsingChar.runtimeconfig.json
+D:\C#\W2\UsingChar\bin\Debug\net5.0\UsingChar.runtimeconfig.dev.json
+D:\C#\W2\UsingChar\bin\Debug\net5.0\UsingChar.dll
+D:\C#\W2\UsingChar\bin\Debug\net5.0\ref\UsingChar.dll
+D:\C#\W2\UsingChar\bin\Debug\net5.0\UsingChar.pdb
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.csprojAssemblyReference.cache
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.AssemblyInfoInputs.cache
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.AssemblyInfo.cs
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.dll
+D:\C#\W2\UsingChar\obj\Debug\net5.0\ref\UsingChar.dll
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.pdb
+D:\C#\W2\UsingChar\obj\Debug\net5.0\UsingChar.genruntimeconfig.cache

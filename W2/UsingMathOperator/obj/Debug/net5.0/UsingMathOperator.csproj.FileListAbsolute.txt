@@ -1,0 +1,16 @@
+D:\C#\W2\UsingMathOperator\bin\Debug\net5.0\UsingMathOperator.exe
+D:\C#\W2\UsingMathOperator\bin\Debug\net5.0\UsingMathOperator.deps.json
+D:\C#\W2\UsingMathOperator\bin\Debug\net5.0\UsingMathOperator.runtimeconfig.json
+D:\C#\W2\UsingMathOperator\bin\Debug\net5.0\UsingMathOperator.runtimeconfig.dev.json
+D:\C#\W2\UsingMathOperator\bin\Debug\net5.0\UsingMathOperator.dll
+D:\C#\W2\UsingMathOperator\bin\Debug\net5.0\ref\UsingMathOperator.dll
+D:\C#\W2\UsingMathOperator\bin\Debug\net5.0\UsingMathOperator.pdb
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.csprojAssemblyReference.cache
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.AssemblyInfoInputs.cache
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.AssemblyInfo.cs
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.dll
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\ref\UsingMathOperator.dll
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.pdb
+D:\C#\W2\UsingMathOperator\obj\Debug\net5.0\UsingMathOperator.genruntimeconfig.cache

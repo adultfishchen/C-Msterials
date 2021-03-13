@@ -1,0 +1,16 @@
+D:\C#\W3\MTable\bin\Debug\net5.0\MTable.exe
+D:\C#\W3\MTable\bin\Debug\net5.0\MTable.deps.json
+D:\C#\W3\MTable\bin\Debug\net5.0\MTable.runtimeconfig.json
+D:\C#\W3\MTable\bin\Debug\net5.0\MTable.runtimeconfig.dev.json
+D:\C#\W3\MTable\bin\Debug\net5.0\MTable.dll
+D:\C#\W3\MTable\bin\Debug\net5.0\ref\MTable.dll
+D:\C#\W3\MTable\bin\Debug\net5.0\MTable.pdb
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.csprojAssemblyReference.cache
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.AssemblyInfoInputs.cache
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.AssemblyInfo.cs
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.csproj.CoreCompileInputs.cache
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.dll
+D:\C#\W3\MTable\obj\Debug\net5.0\ref\MTable.dll
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.pdb
+D:\C#\W3\MTable\obj\Debug\net5.0\MTable.genruntimeconfig.cache

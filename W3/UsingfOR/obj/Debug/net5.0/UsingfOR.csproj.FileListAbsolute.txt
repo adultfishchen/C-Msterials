@@ -1,0 +1,16 @@
+D:\C#\W3\UsingfOR\bin\Debug\net5.0\UsingfOR.exe
+D:\C#\W3\UsingfOR\bin\Debug\net5.0\UsingfOR.deps.json
+D:\C#\W3\UsingfOR\bin\Debug\net5.0\UsingfOR.runtimeconfig.json
+D:\C#\W3\UsingfOR\bin\Debug\net5.0\UsingfOR.runtimeconfig.dev.json
+D:\C#\W3\UsingfOR\bin\Debug\net5.0\UsingfOR.dll
+D:\C#\W3\UsingfOR\bin\Debug\net5.0\ref\UsingfOR.dll
+D:\C#\W3\UsingfOR\bin\Debug\net5.0\UsingfOR.pdb
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.csprojAssemblyReference.cache
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.AssemblyInfoInputs.cache
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.AssemblyInfo.cs
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.dll
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\ref\UsingfOR.dll
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.pdb
+D:\C#\W3\UsingfOR\obj\Debug\net5.0\UsingfOR.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\C#\W3\UsingDoWhile\bin\Debug\net5.0\UsingDoWhile.exe
+D:\C#\W3\UsingDoWhile\bin\Debug\net5.0\UsingDoWhile.deps.json
+D:\C#\W3\UsingDoWhile\bin\Debug\net5.0\UsingDoWhile.runtimeconfig.json
+D:\C#\W3\UsingDoWhile\bin\Debug\net5.0\UsingDoWhile.runtimeconfig.dev.json
+D:\C#\W3\UsingDoWhile\bin\Debug\net5.0\UsingDoWhile.dll
+D:\C#\W3\UsingDoWhile\bin\Debug\net5.0\ref\UsingDoWhile.dll
+D:\C#\W3\UsingDoWhile\bin\Debug\net5.0\UsingDoWhile.pdb
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.csprojAssemblyReference.cache
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.AssemblyInfoInputs.cache
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.AssemblyInfo.cs
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.dll
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\ref\UsingDoWhile.dll
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.pdb
+D:\C#\W3\UsingDoWhile\obj\Debug\net5.0\UsingDoWhile.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\C#\W1\SayHello\bin\Debug\net5.0\SayHello.exe
+D:\C#\W1\SayHello\bin\Debug\net5.0\SayHello.deps.json
+D:\C#\W1\SayHello\bin\Debug\net5.0\SayHello.runtimeconfig.json
+D:\C#\W1\SayHello\bin\Debug\net5.0\SayHello.runtimeconfig.dev.json
+D:\C#\W1\SayHello\bin\Debug\net5.0\SayHello.dll
+D:\C#\W1\SayHello\bin\Debug\net5.0\ref\SayHello.dll
+D:\C#\W1\SayHello\bin\Debug\net5.0\SayHello.pdb
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.csprojAssemblyReference.cache
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.AssemblyInfoInputs.cache
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.AssemblyInfo.cs
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.csproj.CoreCompileInputs.cache
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.dll
+D:\C#\W1\SayHello\obj\Debug\net5.0\ref\SayHello.dll
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.pdb
+D:\C#\W1\SayHello\obj\Debug\net5.0\SayHello.genruntimeconfig.cache

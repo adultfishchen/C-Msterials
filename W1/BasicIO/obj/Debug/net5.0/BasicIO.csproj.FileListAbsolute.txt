@@ -1,0 +1,16 @@
+D:\C#\W1\BasicIO\bin\Debug\net5.0\BasicIO.exe
+D:\C#\W1\BasicIO\bin\Debug\net5.0\BasicIO.deps.json
+D:\C#\W1\BasicIO\bin\Debug\net5.0\BasicIO.runtimeconfig.json
+D:\C#\W1\BasicIO\bin\Debug\net5.0\BasicIO.runtimeconfig.dev.json
+D:\C#\W1\BasicIO\bin\Debug\net5.0\BasicIO.dll
+D:\C#\W1\BasicIO\bin\Debug\net5.0\ref\BasicIO.dll
+D:\C#\W1\BasicIO\bin\Debug\net5.0\BasicIO.pdb
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.csprojAssemblyReference.cache
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.AssemblyInfoInputs.cache
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.AssemblyInfo.cs
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.csproj.CoreCompileInputs.cache
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.dll
+D:\C#\W1\BasicIO\obj\Debug\net5.0\ref\BasicIO.dll
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.pdb
+D:\C#\W1\BasicIO\obj\Debug\net5.0\BasicIO.genruntimeconfig.cache

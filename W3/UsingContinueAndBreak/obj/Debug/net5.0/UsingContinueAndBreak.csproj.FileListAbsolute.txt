@@ -1,0 +1,16 @@
+D:\C#\W3\UsingContinueAndBreak\bin\Debug\net5.0\UsingContinueAndBreak.exe
+D:\C#\W3\UsingContinueAndBreak\bin\Debug\net5.0\UsingContinueAndBreak.deps.json
+D:\C#\W3\UsingContinueAndBreak\bin\Debug\net5.0\UsingContinueAndBreak.runtimeconfig.json
+D:\C#\W3\UsingContinueAndBreak\bin\Debug\net5.0\UsingContinueAndBreak.runtimeconfig.dev.json
+D:\C#\W3\UsingContinueAndBreak\bin\Debug\net5.0\UsingContinueAndBreak.dll
+D:\C#\W3\UsingContinueAndBreak\bin\Debug\net5.0\ref\UsingContinueAndBreak.dll
+D:\C#\W3\UsingContinueAndBreak\bin\Debug\net5.0\UsingContinueAndBreak.pdb
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.csprojAssemblyReference.cache
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.AssemblyInfoInputs.cache
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.AssemblyInfo.cs
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.csproj.CoreCompileInputs.cache
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.dll
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\ref\UsingContinueAndBreak.dll
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.pdb
+D:\C#\W3\UsingContinueAndBreak\obj\Debug\net5.0\UsingContinueAndBreak.genruntimeconfig.cache

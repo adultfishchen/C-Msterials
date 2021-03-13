@@ -1,0 +1,16 @@
+D:\C#\W2\UsingSimpleIfElse\bin\Debug\net5.0\UsingSimpleIfElse.exe
+D:\C#\W2\UsingSimpleIfElse\bin\Debug\net5.0\UsingSimpleIfElse.deps.json
+D:\C#\W2\UsingSimpleIfElse\bin\Debug\net5.0\UsingSimpleIfElse.runtimeconfig.json
+D:\C#\W2\UsingSimpleIfElse\bin\Debug\net5.0\UsingSimpleIfElse.runtimeconfig.dev.json
+D:\C#\W2\UsingSimpleIfElse\bin\Debug\net5.0\UsingSimpleIfElse.dll
+D:\C#\W2\UsingSimpleIfElse\bin\Debug\net5.0\ref\UsingSimpleIfElse.dll
+D:\C#\W2\UsingSimpleIfElse\bin\Debug\net5.0\UsingSimpleIfElse.pdb
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.csprojAssemblyReference.cache
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.AssemblyInfoInputs.cache
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.AssemblyInfo.cs
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.dll
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\ref\UsingSimpleIfElse.dll
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.pdb
+D:\C#\W2\UsingSimpleIfElse\obj\Debug\net5.0\UsingSimpleIfElse.genruntimeconfig.cache

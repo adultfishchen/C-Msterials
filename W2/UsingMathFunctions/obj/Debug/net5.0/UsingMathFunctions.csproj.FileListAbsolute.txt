@@ -1,0 +1,16 @@
+D:\C#\W2\UsingMathFunctions\bin\Debug\net5.0\UsingMathFunctions.exe
+D:\C#\W2\UsingMathFunctions\bin\Debug\net5.0\UsingMathFunctions.deps.json
+D:\C#\W2\UsingMathFunctions\bin\Debug\net5.0\UsingMathFunctions.runtimeconfig.json
+D:\C#\W2\UsingMathFunctions\bin\Debug\net5.0\UsingMathFunctions.runtimeconfig.dev.json
+D:\C#\W2\UsingMathFunctions\bin\Debug\net5.0\UsingMathFunctions.dll
+D:\C#\W2\UsingMathFunctions\bin\Debug\net5.0\ref\UsingMathFunctions.dll
+D:\C#\W2\UsingMathFunctions\bin\Debug\net5.0\UsingMathFunctions.pdb
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.csprojAssemblyReference.cache
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.AssemblyInfoInputs.cache
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.AssemblyInfo.cs
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.csproj.CoreCompileInputs.cache
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.dll
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\ref\UsingMathFunctions.dll
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.pdb
+D:\C#\W2\UsingMathFunctions\obj\Debug\net5.0\UsingMathFunctions.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\C#\C-Msterials\W3\Exercise\Problem1\bin\Debug\netcoreapp3.1\Problem1.exe
+D:\C#\C-Msterials\W3\Exercise\Problem1\bin\Debug\netcoreapp3.1\Problem1.deps.json
+D:\C#\C-Msterials\W3\Exercise\Problem1\bin\Debug\netcoreapp3.1\Problem1.runtimeconfig.json
+D:\C#\C-Msterials\W3\Exercise\Problem1\bin\Debug\netcoreapp3.1\Problem1.runtimeconfig.dev.json
+D:\C#\C-Msterials\W3\Exercise\Problem1\bin\Debug\netcoreapp3.1\Problem1.dll
+D:\C#\C-Msterials\W3\Exercise\Problem1\bin\Debug\netcoreapp3.1\Problem1.pdb
+D:\C#\C-Msterials\W3\Exercise\Problem1\obj\Debug\netcoreapp3.1\Problem1.csprojAssemblyReference.cache
+D:\C#\C-Msterials\W3\Exercise\Problem1\obj\Debug\netcoreapp3.1\Problem1.AssemblyInfoInputs.cache
+D:\C#\C-Msterials\W3\Exercise\Problem1\obj\Debug\netcoreapp3.1\Problem1.AssemblyInfo.cs
+D:\C#\C-Msterials\W3\Exercise\Problem1\obj\Debug\netcoreapp3.1\Problem1.csproj.CoreCompileInputs.cache
+D:\C#\C-Msterials\W3\Exercise\Problem1\obj\Debug\netcoreapp3.1\Problem1.dll
+D:\C#\C-Msterials\W3\Exercise\Problem1\obj\Debug\netcoreapp3.1\Problem1.pdb
+D:\C#\C-Msterials\W3\Exercise\Problem1\obj\Debug\netcoreapp3.1\Problem1.genruntimeconfig.cache

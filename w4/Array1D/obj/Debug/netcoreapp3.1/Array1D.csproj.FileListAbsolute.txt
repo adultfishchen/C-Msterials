@@ -1,0 +1,13 @@
+D:\C#\C-Msterials\w4\Array1D\bin\Debug\netcoreapp3.1\Array1D.exe
+D:\C#\C-Msterials\w4\Array1D\bin\Debug\netcoreapp3.1\Array1D.deps.json
+D:\C#\C-Msterials\w4\Array1D\bin\Debug\netcoreapp3.1\Array1D.runtimeconfig.json
+D:\C#\C-Msterials\w4\Array1D\bin\Debug\netcoreapp3.1\Array1D.runtimeconfig.dev.json
+D:\C#\C-Msterials\w4\Array1D\bin\Debug\netcoreapp3.1\Array1D.dll
+D:\C#\C-Msterials\w4\Array1D\bin\Debug\netcoreapp3.1\Array1D.pdb
+D:\C#\C-Msterials\w4\Array1D\obj\Debug\netcoreapp3.1\Array1D.csprojAssemblyReference.cache
+D:\C#\C-Msterials\w4\Array1D\obj\Debug\netcoreapp3.1\Array1D.AssemblyInfoInputs.cache
+D:\C#\C-Msterials\w4\Array1D\obj\Debug\netcoreapp3.1\Array1D.AssemblyInfo.cs
+D:\C#\C-Msterials\w4\Array1D\obj\Debug\netcoreapp3.1\Array1D.csproj.CoreCompileInputs.cache
+D:\C#\C-Msterials\w4\Array1D\obj\Debug\netcoreapp3.1\Array1D.dll
+D:\C#\C-Msterials\w4\Array1D\obj\Debug\netcoreapp3.1\Array1D.pdb
+D:\C#\C-Msterials\w4\Array1D\obj\Debug\netcoreapp3.1\Array1D.genruntimeconfig.cache

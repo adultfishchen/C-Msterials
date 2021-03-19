@@ -1,0 +1,13 @@
+D:\C#\C-Msterials\w4\ClassPractice\bin\Debug\netcoreapp3.1\ClassPractice.exe
+D:\C#\C-Msterials\w4\ClassPractice\bin\Debug\netcoreapp3.1\ClassPractice.deps.json
+D:\C#\C-Msterials\w4\ClassPractice\bin\Debug\netcoreapp3.1\ClassPractice.runtimeconfig.json
+D:\C#\C-Msterials\w4\ClassPractice\bin\Debug\netcoreapp3.1\ClassPractice.runtimeconfig.dev.json
+D:\C#\C-Msterials\w4\ClassPractice\bin\Debug\netcoreapp3.1\ClassPractice.dll
+D:\C#\C-Msterials\w4\ClassPractice\bin\Debug\netcoreapp3.1\ClassPractice.pdb
+D:\C#\C-Msterials\w4\ClassPractice\obj\Debug\netcoreapp3.1\ClassPractice.csprojAssemblyReference.cache
+D:\C#\C-Msterials\w4\ClassPractice\obj\Debug\netcoreapp3.1\ClassPractice.AssemblyInfoInputs.cache
+D:\C#\C-Msterials\w4\ClassPractice\obj\Debug\netcoreapp3.1\ClassPractice.AssemblyInfo.cs
+D:\C#\C-Msterials\w4\ClassPractice\obj\Debug\netcoreapp3.1\ClassPractice.csproj.CoreCompileInputs.cache
+D:\C#\C-Msterials\w4\ClassPractice\obj\Debug\netcoreapp3.1\ClassPractice.dll
+D:\C#\C-Msterials\w4\ClassPractice\obj\Debug\netcoreapp3.1\ClassPractice.pdb
+D:\C#\C-Msterials\w4\ClassPractice\obj\Debug\netcoreapp3.1\ClassPractice.genruntimeconfig.cache

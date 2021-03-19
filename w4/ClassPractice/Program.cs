@@ -6,6 +6,7 @@
 */
 
 using System;
+using System.Linq;  
 
 namespace ClassPractice
 {
@@ -41,23 +42,132 @@ namespace ClassPractice
 
         static void function2()
         {
+            string[] output = new string[5];
+            string[] pre = new string[] {"0o", "乂☆", "\\", "↗", "＊*", "卍"};
+            string[] post = new string[]{"0o", "☆乂", "/", "↙", "*＊", "卍"};
+            string[] infix = new string[]{"a", "o", "x", "之", "★", "～", "‧"};
+            string[] fir = new string[]{"小小", "元氣", "楓糖", "霸氣", "煞氣", "闇夜", "血"};
+            string[] sec = new string[]{"糖", "漾", "戀果", "鮭魚", "鮪魚", "大閘蟹"};
+
+            //Determine what type it is
+            Random rnd0 = new Random();
+            int N0  = rnd0.Next(0, 4);
+            //Console.WriteLine(N0);
+            
+            
+            switch(N0)
+            {
+                case 0 :
+                //For pre, post and sec
+                Random rnd1 = new Random();
+                int N1  = rnd1.Next(0, 5);
+               // Console.WriteLine(N1);
+                output[0]=pre[N1];
+                output[3]=sec[N1];
+                output[4]=post[N1];
+
+                //For infix and first
+                Random rnd2 = new Random();
+                int N2  = rnd2.Next(0, 6);
+                //Console.WriteLine(N2);
+                output[1]=fir[N2];
+                output[2]=infix[N2];
+
+                Console.WriteLine("Your Id is : " );
+                foreach(string str in output)
+                {
+                    Console.Write("{0}",str);
+                }
+
+                break;
+
+                case 1 :
+                //For pre, post and sec
+                Random rnd3 = new Random();
+                int N3  = rnd3.Next(0, 5);
+               //Console.WriteLine(N3);
+                output[0]=pre[N3];
+                output[2]=sec[N3];
+                output[3]=post[N3];
+
+                //For first
+                Random rnd4 = new Random();
+                int N4  = rnd4.Next(0, 6);
+                //Console.WriteLine(N4);
+                output[1]=fir[N4];
+                
+                Console.WriteLine("Your Id is : " );
+                foreach(string str in output)
+                {
+                    Console.Write("{0}",str);
+                }
+
+                break;
+
+                case 2 :
+                //For sec
+                Random rnd5 = new Random();
+                int N5  = rnd5.Next(0, 5);
+                //Console.WriteLine(N5);
+                output[2]=sec[N5];
+
+                //For infix and first
+                Random rnd6 = new Random();
+                int N6  = rnd6.Next(0, 6);
+                //Console.WriteLine(N6);
+                output[0]=fir[N6];
+                output[1]=infix[N6];
+
+                Console.WriteLine("Your Id is : " );
+                foreach(string str in output)
+                {
+                    Console.Write("{0}",str);
+                }
+
+                break;
+
+                case 3 :
+                //For sec
+                Random rnd7 = new Random();
+                int N7  = rnd7.Next(0, 5);
+                //Console.WriteLine(N7);
+                output[1]=pre[N7];
+                
+
+                //For and first
+                Random rnd8 = new Random();
+                int N8  = rnd8.Next(0, 6);
+                //Console.WriteLine(N8);
+                output[0]=fir[N8];
+
+                Console.WriteLine("Your Id is : " );
+
+                foreach(string str in output)
+                {
+                    Console.Write("{0}",str);
+                }
+
+                break;
+            }
+
+            
 
         }
 
         static void function3()
         {
             int num,r,sum=0,t;
+            string output = "";
 	
             Console.Write("\n\n");
             Console.Write("Display the number in reverse order:\n");
             Console.Write("--------------------------------------");
-            Console.Write("\n\n");  	
-            
+            Console.Write("\n\n");  
 
             Console.Write("Input a number: ");
             num = Convert.ToInt32(Console.ReadLine()); 	
 
-            //依序取出各位、十位...的數值
+            //依序取出個位、十位...的數值
             while(num>0)
             {
                 for(t=num;t!=0;t=t/10)
@@ -66,7 +176,13 @@ namespace ClassPractice
                     sum=sum*10+r;
                 }
                 Console.Write("The number in reverse order is : {0} \n",sum);
+                output += sum.ToString();
+                sum = 0;
+                Console.Write("Input a number: ");
+                num = Convert.ToInt32(Console.ReadLine());
             }
+            Console.WriteLine("A sequence of reversed number: " + output);
+
         }
 
         static void Main(string[] args)

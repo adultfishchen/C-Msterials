@@ -57,7 +57,43 @@ namespace ClassPractice
 
         static void function3()
         {
-            
+            Console.WriteLine("Please input size of class seating chart:");
+            string usize = Console.ReadLine();
+            string[] usizes = usize.Split(' ');
+            int[] size = new int[2];
+            size[0] = int.Parse(usizes[0]);
+            size[1] = int.Parse(usizes[1]);
+            Console.WriteLine("Please input a class seating chart:");
+            int[] row = new int[size[0]];
+            int[] col = new int[size[1]];
+            string[] seats = Console.ReadLine().Split(' ');
+            string[,] result=new string[size[0],size[1]]; 
+            int index = 0, count = 0;
+            for(int i = 0 ; i<size[0];i++)
+            {
+                for(int j = 0 ; j<size[1]; j++)
+                {
+                    result[i,j] = seats[index];
+                    index++;
+                    if(result[i,j]=="0")
+                    {
+                        count++;
+                    }
+
+                }
+            }
+           int min = count/3;
+           if(min == 0)
+           {
+               min = 10;
+           }
+           else
+           {
+               min*=10;
+           }
+           Console.WriteLine("{0} minutes.",min);
+
+
         }
 
         static void Main(string[] args)
@@ -66,8 +102,8 @@ namespace ClassPractice
             Console.WriteLine();
             function2();
             Console.WriteLine();
-            // function3();
-            // Console.WriteLine();
+            function3();
+            Console.WriteLine();
             Console.WriteLine("Press any key to exit ...");
             Console.ReadKey();
         }

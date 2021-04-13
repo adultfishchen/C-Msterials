@@ -1,0 +1,13 @@
+D:\C#\C-Msterials\W7\ClassExercise\obj\Debug\netcoreapp3.1\ClassExercise.csprojAssemblyReference.cache
+D:\C#\C-Msterials\W7\ClassExercise\obj\Debug\netcoreapp3.1\ClassExercise.AssemblyInfoInputs.cache
+D:\C#\C-Msterials\W7\ClassExercise\obj\Debug\netcoreapp3.1\ClassExercise.AssemblyInfo.cs
+D:\C#\C-Msterials\W7\ClassExercise\obj\Debug\netcoreapp3.1\ClassExercise.csproj.CoreCompileInputs.cache
+D:\C#\C-Msterials\W7\ClassExercise\bin\Debug\netcoreapp3.1\ClassExercise.exe
+D:\C#\C-Msterials\W7\ClassExercise\bin\Debug\netcoreapp3.1\ClassExercise.deps.json
+D:\C#\C-Msterials\W7\ClassExercise\bin\Debug\netcoreapp3.1\ClassExercise.runtimeconfig.json
+D:\C#\C-Msterials\W7\ClassExercise\bin\Debug\netcoreapp3.1\ClassExercise.runtimeconfig.dev.json
+D:\C#\C-Msterials\W7\ClassExercise\bin\Debug\netcoreapp3.1\ClassExercise.dll
+D:\C#\C-Msterials\W7\ClassExercise\bin\Debug\netcoreapp3.1\ClassExercise.pdb
+D:\C#\C-Msterials\W7\ClassExercise\obj\Debug\netcoreapp3.1\ClassExercise.dll
+D:\C#\C-Msterials\W7\ClassExercise\obj\Debug\netcoreapp3.1\ClassExercise.pdb
+D:\C#\C-Msterials\W7\ClassExercise\obj\Debug\netcoreapp3.1\ClassExercise.genruntimeconfig.cache

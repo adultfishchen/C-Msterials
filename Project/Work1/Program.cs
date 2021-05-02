@@ -148,7 +148,7 @@ namespace Work1
         {
             string email, pass, name, favCuisine = " ";
             bool vMail = false, vPass = false;
-            int Uid;
+            int Uid = 0;
             Console.Write("Please enter your school email :　");
             email = Console.ReadLine();
             string[] cheMail = email.Split('@');
@@ -160,8 +160,8 @@ namespace Work1
                 if (vMail == true)
                 {
                     //判斷是否已註冊過，未註冊過，進行密碼設置
-                    checkRegis(m, email, out Uid);
-                    while (Uid == 0)
+                    Uid = checkRegis(m, email, Uid);
+                    while (Uid == -1)
                     {
                         for (int i = 0; i < 30; i++)
                         {
@@ -170,6 +170,7 @@ namespace Work1
                                 Console.WriteLine("Please set your password (Must contain capital letter, lowercase letter, number and sign. At least 10 characters. : ");
                                 pass = Console.ReadLine();
                                 vPass = checkPass(pass);
+                                m[i].Email = email;
                                 name = cheMail[0];
                                 //驗證密碼設置
                                 while (vMail)
@@ -238,14 +239,17 @@ namespace Work1
                                             switch (fChoice.ToUpper())
                                             {
                                                 case "A":
-                                                    m[i].FavCuisine = "Chinese";
+                                                    favCuisine = "Chinese";
+                                                    m[i].FavCuisine = favCuisine;
                                                     break;
                                                 case "B":
-                                                    m[i].FavCuisine = "West";
+                                                    favCuisine = "West";
+                                                    m[i].FavCuisine = favCuisine;
                                                     break;
 
                                                 case "C":
-                                                    m[i].FavCuisine = "Multi-cultural";
+                                                    favCuisine = "Multi-cultural";
+                                                    m[i].FavCuisine = favCuisine;
                                                     break;
                                                 default:
                                                     Console.WriteLine("Error!Enter character in [A-C]~");
@@ -254,7 +258,7 @@ namespace Work1
                                                     continue;
                                             }
                                             Console.WriteLine("Great, {0}!! Your favorite cuisine is {1}", m[i].Name, m[i].FavCuisine);
-                                            m[i] = new Member(email, name, pass, favCuisine);
+                                            m[i] = new Member(email, pass, name, favCuisine);
                                             break;
                                         }
                                         break;
@@ -273,7 +277,7 @@ namespace Work1
                         break;
                     }
 
-                    while (Uid != 0)
+                    while (Uid != -1)
                     {
                         //已註冊過，進行密碼重設或登入
                         Console.WriteLine("You've been our member,{0}!", m[Uid].Name);
@@ -295,19 +299,24 @@ namespace Work1
                                         Console.WriteLine("Login successfully, {0}!", m[Uid].Name);
                                         break;
                                     }
-                                    else
+                                    else if (m[Uid].Pass != Upass && k > 0)
                                     {
                                         Console.WriteLine("Wrong password, please try again!", m[Uid].Name);
+                                        k--;
                                         continue;
                                     }
-                                }
-                                Console.WriteLine("You've failed at logining for three times! For security, you need to reset password!");
-                                Console.WriteLine("Please set your new password: ");
-                                string Unpass = Console.ReadLine();
-                                if (checkPass(Unpass))
-                                {
-                                    Console.WriteLine("Reset password successfully!");
-                                    m[Uid].Pass = Unpass;
+                                    else
+                                    {
+                                        Console.WriteLine("You've failed at logining for three times! For security, you need to reset password!");
+                                        Console.WriteLine("Please set your new password: ");
+                                        string Unpass = Console.ReadLine();
+                                        if (checkPass(Unpass))
+                                        {
+                                            Console.WriteLine("Reset password successfully!");
+                                            m[Uid].Pass = Unpass;
+                                        }
+                                        break;
+                                    }
                                 }
                                 break;
                             }
@@ -331,6 +340,7 @@ namespace Work1
                                 continue;
                             }
                         }
+                        break;
                     }
                 }
                 else
@@ -341,11 +351,12 @@ namespace Work1
                     vMail = checkMail(email);
                     continue;
                 }
+                break;
             }
         }
 
         //判斷是否重複註冊
-        static void checkRegis(Member[] m, string mail, out int Uid)
+        static int checkRegis(Member[] m, string mail, int Uid)
         {
             for (int i = 0; i < 30; i++)
             {
@@ -354,9 +365,12 @@ namespace Work1
                     Uid = i;
                     break;
                 }
+                else
+                {
+                    Uid = -1;
+                }
             }
-            Uid = 0;
-
+            return Uid;
         }
         //信箱確認函式
         static bool checkMail(string mail)
@@ -387,7 +401,7 @@ namespace Work1
         //訂位函式
         static void reserve(Member[] m, Res1 r1, Res2 r2, Res3 r3)
         {
-            int Uid;
+            int Uid = 0;
             Console.Write("Do you have a membership? (Y/N): ");
             string UcheMem = Console.ReadLine();
 
@@ -403,7 +417,7 @@ namespace Work1
                     {
                         if (checkMail(Uacc) == true)
                         {
-                            checkRegis(m, Uacc, out Uid);
+                            checkRegis(m, Uacc, Uid);
                             while (Uid != 0)
                             {
                                 switch (m[Uid].FavCuisine)

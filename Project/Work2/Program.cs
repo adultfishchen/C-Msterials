@@ -428,7 +428,7 @@ namespace Work1
         static void reserve(Member[] m, Res1 r1, Res2 r2, Res3 r3)
         {
             int Uid = 0;
-            Console.Write("Do you have a membership? (Y/N): ");
+            Console.Write("Do you have a membership? (y/n) : ");
             string UcheMem = Console.ReadLine();
 
             while (true)
@@ -948,7 +948,7 @@ namespace Work1
                 {
                     //輸入格式錯誤
                     Console.Write("Error!Enter y/n");
-                    Console.Write("Do you remember your password? (y/n) :");
+                    Console.Write("Do you have a membership? (y/n) : ");
                     UcheMem = Console.ReadLine();
                     continue;
                 }

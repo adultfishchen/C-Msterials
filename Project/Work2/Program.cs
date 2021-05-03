@@ -19,24 +19,28 @@ namespace Work1
             this.favCuisine = favCuisine;
         }
 
+        //email設置與取得
         public string Email
         {
             set { email = value; }
             get { return email; }
         }
 
+        //password設置與取得
         public string Pass
         {
             set { pass = value; }
             get { return pass; }
         }
 
+        //name設置與取得
         public string Name
         {
             set { name = value; }
             get { return name; }
         }
 
+        //favcusine設置與取得
         public string FavCuisine
         {
             set { favCuisine = value; }
@@ -51,6 +55,7 @@ namespace Work1
         private int aisle;
         private int booth;
 
+        //3種座位形式各2桌
         public Res1()
         {
             this.wins = 2;
@@ -58,18 +63,21 @@ namespace Work1
             this.booth = 2;
         }
 
+        //Win形式數量更動與取得
         public int Wins
         {
             set { wins = value; }
             get { return wins; }
         }
 
+        //Aisle形式數量更動與取得
         public int Aisle
         {
             set { aisle = value; }
             get { return aisle; }
         }
 
+        //booth形式數量更動與取得
         public int Booth
         {
             set { booth = value; }
@@ -83,6 +91,7 @@ namespace Work1
         private int aisle;
         private int booth;
 
+        //3種座位形式各2桌
         public Res2()
         {
             this.wins = 2;
@@ -90,18 +99,21 @@ namespace Work1
             this.booth = 2;
         }
 
+        //Win形式數量更動與取得
         public int Wins
         {
             set { wins = value; }
             get { return wins; }
         }
 
+        //Aisle形式數量更動與取得
         public int Aisle
         {
             set { aisle = value; }
             get { return aisle; }
         }
 
+        //Booth形式數量更動與取得
         public int Booth
         {
             set { booth = value; }
@@ -115,6 +127,7 @@ namespace Work1
         private int aisle;
         private int booth;
 
+        //3種座位形式各2桌
         public Res3()
         {
             this.wins = 2;
@@ -122,18 +135,21 @@ namespace Work1
             this.booth = 2;
         }
 
+        //Win形式數量更動與取得
         public int Wins
         {
             set { wins = value; }
             get { return wins; }
         }
 
+        //Aisle形式數量更動與取得
         public int Aisle
         {
             set { aisle = value; }
             get { return aisle; }
         }
 
+        //Booth形式數量更動與取得
         public int Booth
         {
             set { booth = value; }
@@ -161,8 +177,10 @@ namespace Work1
                 {
                     //判斷是否已註冊過，未註冊過，進行密碼設置
                     Uid = checkRegis(m, email, Uid);
+                    //不曾註冊
                     while (Uid == -1)
                     {
+                        //尋找無資料位置進行資料的儲存
                         for (int i = 0; i < 30; i++)
                         {
                             if (m[i].Email == " ")
@@ -279,7 +297,7 @@ namespace Work1
 
                     while (Uid != -1)
                     {
-                        //已註冊過，進行密碼重設或登入
+                        //已註冊過
                         Console.WriteLine("You've been our member,{0}!", m[Uid].Name);
                         while (true)
                         {
@@ -361,11 +379,12 @@ namespace Work1
             }
         }
 
-        //判斷是否重複註冊
+        //判斷是否重複註冊函式
         static int checkRegis(Member[] m, string mail, int Uid)
         {
             for (int i = 0; i < 30; i++)
             {
+                //已註冊過，回傳資料index
                 if (m[i].Email == mail)
                 {
                     Uid = i;
@@ -378,6 +397,7 @@ namespace Work1
             }
             return Uid;
         }
+
         //信箱確認函式
         static bool checkMail(string mail)
         {
@@ -416,7 +436,7 @@ namespace Work1
                 //擁有會員身分
                 if (UcheMem.ToLower() == "yes" || UcheMem.ToLower() == "y")
                 {
-                    //提供會員名稱
+                    //提供會員註冊信箱
                     Console.WriteLine("Please tell us your registered email?");
                     string Uacc = Console.ReadLine();
                     while (true)
@@ -430,7 +450,6 @@ namespace Work1
                                 Console.WriteLine("You've been our member,{0}!", m[Uid].Name);
                                 while (true)
                                 {
-
                                     int k = 3;
                                     //考量資安問題，3次密碼錯誤，強制重設
                                     while (k > 0)
@@ -451,6 +470,7 @@ namespace Work1
                                         }
                                         else
                                         {
+                                            //密碼重設
                                             Console.WriteLine("You've failed at logining for three times! For security, you need to reset password!");
                                             Console.WriteLine("Please reset your new password: ");
                                             string Unpass = Console.ReadLine();
@@ -481,6 +501,7 @@ namespace Work1
                                             Console.WriteLine("Hello, {0}! Your favorite cuisine is {1}, we recommend restaurant 3 for you!!", m[Uid].Name, m[Uid].FavCuisine);
                                             break;
                                     }
+
                                     //預約流程
                                     while (true)
                                     {
@@ -611,8 +632,10 @@ namespace Work1
                                 break;
                             }
 
+                            //不曾註冊
                             while (Uid == -1)
                             {
+                                //詢問是否註冊，以獲取更多優惠
                                 Console.Write("Oops...You have never been our membership! Do you want to register and obtain more discount,now? (y/n): ");
                                 string Udes = Console.ReadLine();
                                 if (Udes.ToLower() == "yes" || Udes.ToLower() == "y")
@@ -624,6 +647,7 @@ namespace Work1
                                 {
                                     while (true)
                                     {
+                                        //預約流程
                                         Console.WriteLine("Please choose a restaurant you like from the following list(1. Chinese Food 2. West Food 3. Multi-cultural Food) :");
                                         int resN = int.Parse(Console.ReadLine());
                                         //預約的餐廳與預約的座位形式
@@ -769,11 +793,12 @@ namespace Work1
                 //沒有會員
                 else if (UcheMem.ToLower() == "no" || UcheMem.ToLower() == "n")
                 {
-                    //請求註冊
+                    //詢問是否註冊以會取更多優惠
                     Console.WriteLine("Do you want to register and obtain more discount,now? (y/n): ");
                     string Udes = Console.ReadLine();
                     while (true)
                     {
+                        //註冊
                         if (Udes.ToLower() == "yes" || Udes.ToLower() == "y")
                         {
                             login(m);
@@ -783,6 +808,7 @@ namespace Work1
                         {
                             while (true)
                             {
+                                //預約流程
                                 Console.WriteLine("Please choose a restaurant you like from the following list(1. Chinese Food 2. West Food 3. Multi-cultural Food) :");
                                 int resN = int.Parse(Console.ReadLine());
                                 //預約的餐廳與預約的座位形式
@@ -950,6 +976,7 @@ namespace Work1
                         if (checkMail(Umail) == true)
                         {
                             Uid = checkRegis(m, Umail, Uid);
+                            //查無會員資料，詢問是否註冊
                             while (Uid == -1)
                             {
                                 Console.WriteLine("Sorry, you've never gottten our membership!");
@@ -957,11 +984,13 @@ namespace Work1
                                 string Uche = Console.ReadLine();
                                 while (true)
                                 {
+                                    //註冊
                                     if (Uche.ToLower() == "yes" || Uche.ToLower() == "y")
                                     {
                                         login(m);
                                         break;
                                     }
+                                    //跳出程序
                                     else if (Uche.ToLower() == "no" || Uche.ToLower() == "n")
                                     {
                                         Console.WriteLine("Sorry, you can't start this function without having a membership!!");
@@ -977,32 +1006,39 @@ namespace Work1
                                 }
                                 break;
                             }
+                            //已註冊，開始抽獎
                             while (Uid != -1)
                             {
                                 Console.WriteLine("Ready to play? Press any key to start: ");
                                 Console.ReadKey();
-                                int numGet = r.Next() % (5 - 0 + 1);//產生最大值為5，嘴小值為0
+                                int numGet = r.Next() % (5 - 0 + 1);//產生最大值(獎)為5，最小值(獎)為0
                                 switch (numGet)
                                 {
+                                    //未中獎
                                     case 0:
                                         Console.WriteLine("Miss it ... ");
                                         break;
+                                    //一獎
                                     case 1:
                                         Console.WriteLine("Congratulations! Win $1 discount coupon,which is applicab;e to all restaurants!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
                                         break;
+                                    //二獎
                                     case 2:
                                         Console.WriteLine("Congratulations! Win $10 discount coupon,which is applicab;e to all restaurants!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
                                         break;
+                                    //三獎
                                     case 3:
                                         Console.WriteLine("Congratulations! Win $50 discount coupon,which is applicab;e to all restaurants!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
                                         break;
+                                    //四獎
                                     case 4:
                                         Console.WriteLine("Congratulations! Win a discount coupon with claiming $300 rebate for every $1000 spent!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
                                         break;
+                                    //五獎
                                     case 5:
                                         Console.WriteLine("Congratulations! Win a discount coupon with claiming $300 rebate for every $1000 spent!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
@@ -1021,6 +1057,7 @@ namespace Work1
                     }
                     break;
                 }
+                //無會員，詢問是否註冊
                 else if (Umem.ToLower() == "no" || Umem.ToLower() == "n")
                 {
                     Console.WriteLine("Sorry, you can't start this function without having a membership!!");
@@ -1028,11 +1065,13 @@ namespace Work1
                     string Uche = Console.ReadLine();
                     while (true)
                     {
+                        //註冊
                         if (Uche.ToLower() == "yes" || Uche.ToLower() == "y")
                         {
                             login(m);
                             break;
                         }
+                        //跳出程序
                         else if (Uche.ToLower() == "no" || Uche.ToLower() == "n")
                         {
                             Console.WriteLine("Sorry, you can't start this function without having a membership!!");
@@ -1061,12 +1100,13 @@ namespace Work1
         //主程式
         static void Main(string[] args)
         {
-            //儲存所有會員資料
+            //生成會員陣列以儲存會員資料
             Member[] m = new Member[30];
             for (int a = 0; a < 30; a++)
             {
                 m[a] = new Member(" ", " ", " ", " ");
             }
+            //生成餐廳instance
             Res1 r1 = new Res1();
             Res2 r2 = new Res2();
             Res3 r3 = new Res3();

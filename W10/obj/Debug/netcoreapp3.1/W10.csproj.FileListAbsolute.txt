@@ -1,0 +1,13 @@
+D:\C#\C-Msterials\W10\bin\Debug\netcoreapp3.1\W10.exe
+D:\C#\C-Msterials\W10\bin\Debug\netcoreapp3.1\W10.deps.json
+D:\C#\C-Msterials\W10\bin\Debug\netcoreapp3.1\W10.runtimeconfig.json
+D:\C#\C-Msterials\W10\bin\Debug\netcoreapp3.1\W10.runtimeconfig.dev.json
+D:\C#\C-Msterials\W10\bin\Debug\netcoreapp3.1\W10.dll
+D:\C#\C-Msterials\W10\bin\Debug\netcoreapp3.1\W10.pdb
+D:\C#\C-Msterials\W10\obj\Debug\netcoreapp3.1\W10.csprojAssemblyReference.cache
+D:\C#\C-Msterials\W10\obj\Debug\netcoreapp3.1\W10.AssemblyInfoInputs.cache
+D:\C#\C-Msterials\W10\obj\Debug\netcoreapp3.1\W10.AssemblyInfo.cs
+D:\C#\C-Msterials\W10\obj\Debug\netcoreapp3.1\W10.csproj.CoreCompileInputs.cache
+D:\C#\C-Msterials\W10\obj\Debug\netcoreapp3.1\W10.dll
+D:\C#\C-Msterials\W10\obj\Debug\netcoreapp3.1\W10.pdb
+D:\C#\C-Msterials\W10\obj\Debug\netcoreapp3.1\W10.genruntimeconfig.cache

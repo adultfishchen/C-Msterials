@@ -356,6 +356,7 @@ namespace Work1
                                 }
                                 break;
                             }
+                            //輸入格是錯誤，請求重新輸入
                             else
                             {
                                 Console.WriteLine("Error!Enter y/n");
@@ -367,6 +368,7 @@ namespace Work1
                         break;
                     }
                 }
+                //輸入格是錯誤，請求重新輸入
                 else
                 {
                     Console.Write("Please re-enter your school email :　");
@@ -428,15 +430,16 @@ namespace Work1
         static void reserve(Member[] m, Res1 r1, Res2 r2, Res3 r3)
         {
             int Uid = 0;
+            //詢問是否擁有會員身分
             Console.Write("Do you have a membership? (y/n) : ");
             string UcheMem = Console.ReadLine();
 
             while (true)
             {
-                //擁有會員身分
+                //回覆有會員資格
                 if (UcheMem.ToLower() == "yes" || UcheMem.ToLower() == "y")
                 {
-                    //提供會員註冊信箱
+                    //請求提供會員註冊信箱
                     Console.WriteLine("Please tell us your registered email?");
                     string Uacc = Console.ReadLine();
                     while (true)
@@ -446,7 +449,7 @@ namespace Work1
                             Uid = checkRegis(m, Uacc, Uid);
                             while (Uid != -1)
                             {
-                                //已註冊過，進行密碼重設或登入
+                                //已註冊過，進行密碼驗證或重設
                                 Console.WriteLine("You've been our member,{0}!", m[Uid].Name);
                                 while (true)
                                 {
@@ -638,11 +641,13 @@ namespace Work1
                                 //詢問是否註冊，以獲取更多優惠
                                 Console.Write("Oops...You have never been our membership! Do you want to register and obtain more discount,now? (y/n): ");
                                 string Udes = Console.ReadLine();
+                                //是，進行註冊程序
                                 if (Udes.ToLower() == "yes" || Udes.ToLower() == "y")
                                 {
                                     login(m);
                                     break;
                                 }
+                                //否，進行訂位程序
                                 else if (Udes.ToLower() == "no" || Udes.ToLower() == "n")
                                 {
                                     while (true)
@@ -772,6 +777,7 @@ namespace Work1
                                     }
                                     break;
                                 }
+                                //輸入格是錯誤，請求重新輸入
                                 else
                                 {
                                     Console.WriteLine("Error!Enter y/n");
@@ -782,6 +788,7 @@ namespace Work1
                             }
                             break;
                         }
+                        //輸入格是錯誤，請求重新輸入
                         else
                         {
                             Console.WriteLine("Please re-enter your registered email!");
@@ -790,7 +797,7 @@ namespace Work1
                         }
                     }
                 }
-                //沒有會員
+                //回覆沒有會員資格
                 else if (UcheMem.ToLower() == "no" || UcheMem.ToLower() == "n")
                 {
                     //詢問是否註冊以會取更多優惠
@@ -798,12 +805,13 @@ namespace Work1
                     string Udes = Console.ReadLine();
                     while (true)
                     {
-                        //註冊
+                        //是，進入註冊程序
                         if (Udes.ToLower() == "yes" || Udes.ToLower() == "y")
                         {
                             login(m);
                             break;
                         }
+                        //否，進入訂位程序
                         else if (Udes.ToLower() == "no" || Udes.ToLower() == "n")
                         {
                             while (true)
@@ -932,9 +940,9 @@ namespace Work1
                                 break;
                             }
                         }
+                        //輸入格式錯誤，請求重新輸入
                         else
                         {
-                            //輸入格式錯誤
                             Console.Write("Error!Enter y/n");
                             Console.Write("Do you remember your password? (y/n) :");
                             Udes = Console.ReadLine();
@@ -944,9 +952,9 @@ namespace Work1
                     }
                     break;
                 }
+                //輸入格式錯誤，請求重新輸入
                 else
                 {
-                    //輸入格式錯誤
                     Console.Write("Error!Enter y/n");
                     Console.Write("Do you have a membership? (y/n) : ");
                     UcheMem = Console.ReadLine();
@@ -963,12 +971,14 @@ namespace Work1
             {
                 int Uid = 0;
                 Random r = new Random();
-                //確認是否有會員身分
+                //詢問是否有會員身分
                 Console.WriteLine("Have you been a member already?(y/n): ");
                 string Umem = Console.ReadLine();
 
+                //回覆有
                 if (Umem.ToLower() == "yes" || Umem.ToLower() == "y")
                 {
+                    //請求提供註冊信箱
                     Console.Write("Please enter your registered email : ");
                     string Umail = Console.ReadLine();
                     while (true)
@@ -984,18 +994,19 @@ namespace Work1
                                 string Uche = Console.ReadLine();
                                 while (true)
                                 {
-                                    //註冊
+                                    //回覆是，進行註冊程序
                                     if (Uche.ToLower() == "yes" || Uche.ToLower() == "y")
                                     {
                                         login(m);
                                         break;
                                     }
-                                    //跳出程序
+                                    //回覆否，跳出程序
                                     else if (Uche.ToLower() == "no" || Uche.ToLower() == "n")
                                     {
                                         Console.WriteLine("Sorry, you can't start this function without having a membership!!");
                                         break;
                                     }
+                                    //輸入格是錯誤，請求重新輸入
                                     else
                                     {
                                         Console.WriteLine("Error!Enter y/n");
@@ -1006,12 +1017,14 @@ namespace Work1
                                 }
                                 break;
                             }
-                            //已註冊，開始抽獎
+                            //確認有會員資格，開始抽獎
                             while (Uid != -1)
                             {
                                 Console.WriteLine("Ready to play? Press any key to start: ");
                                 Console.ReadKey();
-                                int numGet = r.Next() % (5 - 0 + 1);//產生最大值(獎)為5，最小值(獎)為0
+                                //隨機產生最大值(獎)為5到最小值(獎)為0之間的數字，並給予相應優惠獎項
+                                int numGet = r.Next() % (5 - 0 + 1);
+                                
                                 switch (numGet)
                                 {
                                     //未中獎
@@ -1048,6 +1061,7 @@ namespace Work1
                             }
                             break;
                         }
+                        //輸入格是錯誤，請求重新輸入
                         else
                         {
                             Console.WriteLine("Wrong email address format, please re-enter your registered email: ");
@@ -1057,7 +1071,7 @@ namespace Work1
                     }
                     break;
                 }
-                //無會員，詢問是否註冊
+                //回覆無會員，詢問是否註冊
                 else if (Umem.ToLower() == "no" || Umem.ToLower() == "n")
                 {
                     Console.WriteLine("Sorry, you can't start this function without having a membership!!");
@@ -1065,18 +1079,19 @@ namespace Work1
                     string Uche = Console.ReadLine();
                     while (true)
                     {
-                        //註冊
+                        //回覆是，進行註冊程序
                         if (Uche.ToLower() == "yes" || Uche.ToLower() == "y")
                         {
                             login(m);
                             break;
                         }
-                        //跳出程序
+                        //回覆否，跳出程序
                         else if (Uche.ToLower() == "no" || Uche.ToLower() == "n")
                         {
                             Console.WriteLine("Sorry, you can't start this function without having a membership!!");
                             break;
                         }
+                        //輸入格是錯誤，請求重新輸入
                         else
                         {
                             Console.WriteLine("Error!Enter y/n");
@@ -1087,6 +1102,7 @@ namespace Work1
                     }
                     break;
                 }
+                //輸入格是錯誤，請求重新輸入
                 else
                 {
                     Console.WriteLine("Error!Enter y/n");
@@ -1116,6 +1132,7 @@ namespace Work1
             int choice = int.Parse(Console.ReadLine());
             while (true)
             {
+                //根據輸入內容，執行相對應程序
                 if (choice > 0 && choice <= 3)
                 {
                     switch (choice)
@@ -1138,6 +1155,7 @@ namespace Work1
 
                     }
                 }
+                //輸入為0，結束主程式
                 else if (choice == 0)
                 {
                     Console.WriteLine("Thanks for your visiting !! Have a good day!");
@@ -1145,6 +1163,7 @@ namespace Work1
                     Console.ReadKey();
                     break;
                 }
+                //輸入格式錯誤，請求重新輸入
                 else
                 {
                     Console.WriteLine("Please enter a number in [0-3]!!");

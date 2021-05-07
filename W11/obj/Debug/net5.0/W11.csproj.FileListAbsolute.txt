@@ -1,0 +1,16 @@
+D:\C#\C-Msterials\W11\bin\Debug\net5.0\W11.exe
+D:\C#\C-Msterials\W11\bin\Debug\net5.0\W11.deps.json
+D:\C#\C-Msterials\W11\bin\Debug\net5.0\W11.runtimeconfig.json
+D:\C#\C-Msterials\W11\bin\Debug\net5.0\W11.runtimeconfig.dev.json
+D:\C#\C-Msterials\W11\bin\Debug\net5.0\W11.dll
+D:\C#\C-Msterials\W11\bin\Debug\net5.0\ref\W11.dll
+D:\C#\C-Msterials\W11\bin\Debug\net5.0\W11.pdb
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.csprojAssemblyReference.cache
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.AssemblyInfoInputs.cache
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.AssemblyInfo.cs
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.csproj.CoreCompileInputs.cache
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.dll
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\ref\W11.dll
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.pdb
+D:\C#\C-Msterials\W11\obj\Debug\net5.0\W11.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\C#\C-Msterials\Project\Work2\bin\Debug\net5.0\Work2.exe
+D:\C#\C-Msterials\Project\Work2\bin\Debug\net5.0\Work2.deps.json
+D:\C#\C-Msterials\Project\Work2\bin\Debug\net5.0\Work2.runtimeconfig.json
+D:\C#\C-Msterials\Project\Work2\bin\Debug\net5.0\Work2.runtimeconfig.dev.json
+D:\C#\C-Msterials\Project\Work2\bin\Debug\net5.0\Work2.dll
+D:\C#\C-Msterials\Project\Work2\bin\Debug\net5.0\ref\Work2.dll
+D:\C#\C-Msterials\Project\Work2\bin\Debug\net5.0\Work2.pdb
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.csprojAssemblyReference.cache
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.AssemblyInfoInputs.cache
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.AssemblyInfo.cs
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.csproj.CoreCompileInputs.cache
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.dll
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\ref\Work2.dll
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.pdb
+D:\C#\C-Msterials\Project\Work2\obj\Debug\net5.0\Work2.genruntimeconfig.cache

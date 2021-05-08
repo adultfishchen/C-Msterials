@@ -10,13 +10,15 @@ namespace Work1
         private string pass = " ";
         private string name = " ";
         private string favCuisine = " ";
+        private int couponAmount = 0;
 
-        public Member(string email, string pass, string name, string favCuisine)
+        public Member(string email, string pass, string name, string favCuisine,int couponAmount)
         {
             this.email = email;
             this.pass = pass;
             this.name = name;
             this.favCuisine = favCuisine;
+            this.couponAmount = couponAmount;
         }
 
         //email設置與取得
@@ -45,6 +47,13 @@ namespace Work1
         {
             set { favCuisine = value; }
             get { return favCuisine; }
+        }
+
+        //couponAmount設置與取得
+        public int CouponAmount
+        {
+            set { couponAmount = value; }
+            get { return couponAmount; }
         }
     }
 
@@ -243,7 +252,7 @@ namespace Work1
                                                     continue;
                                             }
                                             Console.WriteLine("Great, {0}!! Your favorite cuisine is {1}", m[i].Name, m[i].FavCuisine);
-                                            m[i] = new Member(email, pass, name, favCuisine);
+                                            m[i] = new Member(email, pass, name, favCuisine,m[i].CouponAmount);
                                             break;
                                         }
                                         break;
@@ -276,7 +285,7 @@ namespace Work1
                                                     continue;
                                             }
                                             Console.WriteLine("Great, {0}!! Your favorite cuisine is {1}", m[i].Name, m[i].FavCuisine);
-                                            m[i] = new Member(email, pass, name, favCuisine);
+                                            m[i] = new Member(email, pass, name, favCuisine,m[i].CouponAmount);
                                             break;
                                         }
                                         break;
@@ -1035,26 +1044,31 @@ namespace Work1
                                     case 1:
                                         Console.WriteLine("Congratulations! Win $1 discount coupon,which is applicab;e to all restaurants!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
+                                        m[Uid].CouponAmount++;
                                         break;
                                     //二獎
                                     case 2:
                                         Console.WriteLine("Congratulations! Win $10 discount coupon,which is applicab;e to all restaurants!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
+                                        m[Uid].CouponAmount++;
                                         break;
                                     //三獎
                                     case 3:
                                         Console.WriteLine("Congratulations! Win $50 discount coupon,which is applicab;e to all restaurants!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
+                                        m[Uid].CouponAmount++;
                                         break;
                                     //四獎
                                     case 4:
                                         Console.WriteLine("Congratulations! Win a discount coupon with claiming $300 rebate for every $1000 spent!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
+                                        m[Uid].CouponAmount++;
                                         break;
                                     //五獎
                                     case 5:
                                         Console.WriteLine("Congratulations! Win a discount coupon with claiming $300 rebate for every $1000 spent!");
                                         Console.WriteLine("Save this Screenshot, and show waiters/waitresses to exchange this discount!");
+                                        m[Uid].CouponAmount++;
                                         break;
                                 }
                                 break;
@@ -1120,7 +1134,7 @@ namespace Work1
             Member[] m = new Member[30];
             for (int a = 0; a < 30; a++)
             {
-                m[a] = new Member(" ", " ", " ", " ");
+                m[a] = new Member(" ", " ", " ", " ",0);
             }
             //生成餐廳instance
             Res1 r1 = new Res1();

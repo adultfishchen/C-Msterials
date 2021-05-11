@@ -9,9 +9,9 @@ namespace W11
         public LibraryDealer(string path)
         {
             this.LibraryPath = path;
-            if (LibraryPath[LibraryPath.Length - 1] != '\\')
+            if (LibraryPath[LibraryPath.Length-1]!='\\')
             {// MacOS的路徑應該要把 \\ => 改成 /
-                LibraryPath += '\\';
+                LibraryPath+='\\';
             }
         }
         public string Txt2AsciiString(string filename)
@@ -20,166 +20,89 @@ namespace W11
         }
         public void Ascii2Txt(string filename)
         {// 讀字串寫成檔案
-            if (!File.Exists(this.LibraryPath + filename))
+            if(!File.Exists(this.LibraryPath+filename))
             {
                 Console.WriteLine("{0} does not exist.\nFile will been created.", filename);
             }
             Console.WriteLine("Input \"-1\" as the end of the AsciiArt.\nPaste your AsciiArt below:");
-            using (StreamWriter EchoPath = File.CreateText(this.LibraryPath + filename))
+            using(StreamWriter EchoPath = File.CreateText(this.LibraryPath+filename))
             {// 將貼到Terminal上的AsciiArt寫入
-                while (true)
-                {
+                while(true) {
                     string line = Console.ReadLine();
                     if (line == "-1") break;
                     EchoPath.WriteLine(line);
                 }
-                Console.WriteLine("Your AsciiArt has been saved at {0}", this.LibraryPath + filename);
+                Console.WriteLine("Your AsciiArt has been saved at {0}", this.LibraryPath+filename);
             }
-        }
-    }
-
-    class Token
-    {   // Token can be regarded as all character's  base(such as Player, NPC, enemy...)
-        protected string art, name;
-        public Status status;
-        protected Random rnd;
-        public Token()
-        {// Constructors
-            this.art = "";
-            this.name = "";
-            this.status = new Status();
-            rnd = new Random();
-        }
-        public Token(string Art, string Name)
-        {// Constructors
-            this.art = Art;
-            this.name = Name;
-            this.status = new Status();
-            rnd = new Random();
-        }
-        public string Art
-        {// Auto-implemented property:
-            get { return art; }
-            set { art = value; }
-        }
-        public string Name
-        {// Auto-implemented property:
-            get { return name; }
-            set { name = value; }
-        }
-        public virtual void ShowInfo()
-        {// Method
-            Console.WriteLine("{0}\nName: {1}", this.art, this.name);
-            this.status.ShowStatus();
-        }
-        public int Attack()
-        {
-            return 18;
-        }
-        public void Defence(int AttackPoint)
-        {
-            AttackPoint = 27;
-        }
-    }
-
-    class Status
-    {
-        private int hp;
-        private int atk;
-        private int def;
-        private int luc;
-        private Random rnd;
-        public Status()
-        {// Constructors
-            rnd = new Random();
-            this.hp = rnd.Next() % 50 + 50;
-            this.atk = rnd.Next() % 100 + 200;
-            this.def = rnd.Next() % 30 + 1;
-            this.luc = rnd.Next() % 100 + 1;
-        }
-        public int Hp
-        {// Auto-implemented property:
-            get { return this.hp; }
-            set { this.hp = value; }
-        }
-        public int Atk
-        {// Auto-implemented readonly property:
-            get { return this.atk; }
-        }
-        public int Def
-        {// Auto-implemented readonly property:
-            get { return this.def; }
-        }
-        public int Luc
-        {// Auto-implemented readonly property:
-            get { return this.luc; }
-        }
-        public void ShowStatus()
-        {// Auto-implemented readonly property:
-            Console.WriteLine("  HP:{0, 3}\n ATK:{1, 3}\n DEF:{2, 3}\n LUC:{3, 3}", this.hp, this.atk, this.def, this.luc);
-        }
-    }// Status
-
-    class Enemy : Token
-    {// Inherit
-        public Enemy()
-        {// DIY
-        }
-        public Enemy(string Art, string Name, string Quote)
-        {// DIY
-        }
-        public override void ShowInfo()
-        {// DIY, or create another
         }
     }
 
     class Program
     {
-        static void easy()
-        {
-            string path = @"D:\C#\C-Msterials\W11\AsciiArt";
-            LibraryDealer ld = new LibraryDealer(path);
-            string name = "Ghy";
-            Token BSMF = new Token(ld.Txt2AsciiString("1.txt"), name);
-            BSMF.ShowInfo();
-        }
-
-        static void middle()
-        {
-            string path = @"D:\C#\C-Msterials\W11\AsciiArt";
-            LibraryDealer ld = new LibraryDealer(path);
-            string name1 = "O-Ghy";
-            Token BSMF1 = new Token(ld.Txt2AsciiString("1.txt"), name1);
-            Console.WriteLine("{0}'s status is");
-            BSMF1.status.ShowStatus();
-            Console.WriteLine("-----------------------------------");
-            string name2 = "N-Ghy";
-            Token BSMF2 = new Token(ld.Txt2AsciiString("2.txt"), name2);
-            BSMF2.status.ShowStatus();
-            Console.WriteLine("-----------------------------------");
-            while(BSMF1.status.Hp>0 && BSMF2.status.Hp>0)
-            {
-                BSMF1.Attack();
-                BSMF2.Defence(BSMF1.Attack(),BSMF2.Name);
-                BSMF2.status.Hp -= BSMF1.Attack();
-                BSMF2.status.ShowStatus();
-
-                Console.WriteLine("{0} made a critical hit!!")
-                BSMF1.Attack();
-                BSMF2.Defence(BSMF1.Attack(),BSMF2.Name);
-                BSMF2.status.Hp -= BSMF1.Attack();
-                BSMF2.status.ShowStatus();
-            }
-        } 
         
         static void Main(string[] args)
         {
-            easy();
-            Console.WriteLine();
-            middle();
-            Console.WriteLine("Press any key to exit ...");
+            Easy();
+            Medium();
+            Hard();
             Console.ReadLine();
+        }
+        static void Easy()
+        {
+            LibraryDealer ld = new LibraryDealer(@"D:\C#\C-Msterials\W11\AsciiArt");
+            Token peko = new Token(ld.Txt2AsciiString("1.txt"), "N_Ghy");
+            peko.ShowInfo();
+        }
+        
+        static void Medium()
+        {
+            LibraryDealer ld = new LibraryDealer(@"D:\C#\C-Msterials\W11\AsciiArt");
+            Token peko = new Token(ld.Txt2AsciiString("1.txt"), "N_Ghy");
+            Token miko = new Token(ld.Txt2AsciiString("2.txt"), "O_Ghy");
+            // ---
+            Console.WriteLine("{0}'s status is", peko.Name);
+            peko.status.ShowStatus();
+            Console.WriteLine("--------------------");
+            Console.WriteLine("{0}'s status is", miko.Name);
+            miko.status.ShowStatus();
+            Console.WriteLine("--------------------");
+            BigWar(peko, miko);
+            // Because classes are reference types, someone's Hp becomes to 0 now.
+            void BigWar(Token P1, Token P2)
+            {// PekoMiko Daisensou
+                /* 是說關於RPG中，物件間的對戰，
+                 * 同學可以盡情發揮創意，
+                 * 利用添加不同的properties給物件，
+                 * 來自創各種遊戲的戰鬥系統。
+                 * 例如：Status若再加入int spd 代表腳色的速度能力值，
+                 * 那我們這邊BigWar函式，就可以根據物件.status.spd決定誰先攻。
+                 */
+                while(true)
+                {
+                    P2.Defence(P1.Attack());
+                    if(P2.status.Hp <= 0)
+                    {
+                        Console.WriteLine("K.O.\n{0}\n{1} is winner", P1.Art, P1.Name);
+                        break;
+                    }
+                    Console.WriteLine();
+                    P1.Defence(P2.Attack());
+                    if(P1.status.Hp <= 0)
+                    {
+                        Console.WriteLine("K.O.\n{0}\n{1} is winner", P2.Art, P2.Name);
+                        break;
+                    }
+                    Console.WriteLine("--------------------");
+                }
+            }// Big War
+        }
 
+        static void Hard()
+        {
+            LibraryDealer ld = new LibraryDealer(@"D:\C#\C-Msterials\W11\AsciiArt");
+            Enemy boss = new Enemy(ld.Txt2AsciiString("1.txt"), "N_Ghy", "Hello, my fans!");
+            //Enemy boss = new Enemy(ArtLibrary.Squirtle, "Squirtle", "傑尼傑尼!");
+            boss.ShowInfo();
         }
     }
 }

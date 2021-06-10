@@ -41,8 +41,8 @@ namespace Mealink
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
@@ -60,6 +60,7 @@ namespace Mealink
             this.email.PlaceholderText = "Your School Email";
             this.email.Size = new System.Drawing.Size(308, 27);
             this.email.TabIndex = 1;
+            this.email.Leave += new System.EventHandler(this.email_Leave);
             // 
             // username
             // 
@@ -80,6 +81,7 @@ namespace Mealink
             this.password.PlaceholderText = "Password";
             this.password.Size = new System.Drawing.Size(308, 27);
             this.password.TabIndex = 3;
+            this.password.Leave += new System.EventHandler(this.password_Leave);
             // 
             // pictureBox1
             // 
@@ -158,16 +160,6 @@ namespace Mealink
             this.panel1.Size = new System.Drawing.Size(812, 50);
             this.panel1.TabIndex = 9;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::Mealink.Properties.Resources.logo;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 50);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -177,6 +169,16 @@ namespace Mealink
             this.label2.Size = new System.Drawing.Size(84, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Register";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Mealink.Properties.Resources.logo;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // register
             // 

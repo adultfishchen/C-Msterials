@@ -350,6 +350,30 @@ namespace Mealink
             this.Close();
         }
 
+        private void email_Leave(object sender, EventArgs e)
+        {
+            string mail = email.Text;
+            if(checkMail(mail) == false)
+            {
+                errorProvider1.SetError(this.email, "Please enter your school email");
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+        }
 
+        private void password_Leave(object sender, EventArgs e)
+        {
+            string pass = password.Text;
+            if(checkPass(pass) == false)
+            {
+                errorProvider3.SetError(this.password, "Must contain capital letter, lowercase letter, number and sign. At least 10 characters.");
+            }
+            else
+            {
+                errorProvider3.Clear();
+            }
+        }
     }
 }
